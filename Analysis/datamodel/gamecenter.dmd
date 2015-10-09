@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="gamecenter" id="429F9498-CDFD-8407-D612-04568B97B524" version="3.5">
+<createdBy>thomasvanroy</createdBy>
+<createdTime>2015-10-09 19:22:04 UTC</createdTime>
+<ownerDesignName>gamecenter</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>429F9498-CDFD-8407-D612-04568B97B524</designId>
+</OSDM_Design>

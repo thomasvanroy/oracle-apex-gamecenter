@@ -1,0 +1,151 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8D067AA9-CE9E-C37D-E408-00FC85755986" name="GC_PLAYERS">
+<createdBy>thomasvanroy</createdBy>
+<createdTime>2015-10-09 19:41:02 UTC</createdTime>
+<ownerDesignName>gamecenter</ownerDesignName>
+<ordsAlias>table_4</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="player_id" id="F715C918-2269-1577-CDB8-E879CCC8E4A7">
+<createdBy>thomasvanroy</createdBy>
+<createdTime>2015-10-09 19:42:06 UTC</createdTime>
+<ownerDesignName>gamecenter</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="user_id" id="C0DDBFFD-D909-FA1C-48F5-166468E059BD">
+<createdBy>thomasvanroy</createdBy>
+<createdTime>2015-10-09 19:44:33 UTC</createdTime>
+<ownerDesignName>gamecenter</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="47E7B85C-974A-69CD-39C4-ADC7707DB36B" referredColumn="811561C2-FE4E-0185-6526-D0428F8FBB9D"/>
+</associations>
+</Column>
+<Column name="nickname" id="EE553881-C3B9-630A-BA1F-766AB2294B83">
+<createdBy>thomasvanroy</createdBy>
+<createdTime>2015-10-09 19:42:06 UTC</createdTime>
+<ownerDesignName>gamecenter</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150 CHAR</dataTypeSize>
+<ownDataTypeParameters>150 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="email" id="6EA8BBE1-CB5E-8960-D3C5-9A466C97C8B6">
+<createdBy>thomasvanroy</createdBy>
+<createdTime>2015-10-09 19:42:06 UTC</createdTime>
+<ownerDesignName>gamecenter</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 CHAR</dataTypeSize>
+<ownDataTypeParameters>200 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="created_on" id="30EBFDAB-9611-7B7E-4059-E5CEAE367898">
+<createdBy>thomasvanroy</createdBy>
+<createdTime>2015-10-09 19:45:19 UTC</createdTime>
+<commentInRDBMS>Create on</commentInRDBMS>
+<ownerDesignName>gamecenter</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<propertyMap>
+<property name="ctemplateID" value="E409BC90-B881-73E4-0263-E0A0F24E3F92"/>
+</propertyMap>
+</Column>
+<Column name="created_by" id="D7E1348B-488D-D92A-A64B-6B96AC1784A5">
+<createdBy>thomasvanroy</createdBy>
+<createdTime>2015-10-09 19:45:19 UTC</createdTime>
+<commentInRDBMS>Created by</commentInRDBMS>
+<ownerDesignName>gamecenter</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150 CHAR</dataTypeSize>
+<ownDataTypeParameters>150 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<propertyMap>
+<property name="ctemplateID" value="6FB343A0-6757-28B9-7D80-75CB8D54EFA2"/>
+</propertyMap>
+</Column>
+<Column name="changed_on" id="306945F6-7805-4E8A-3CFB-A3CAD5F81123">
+<createdBy>thomasvanroy</createdBy>
+<createdTime>2015-10-09 19:45:19 UTC</createdTime>
+<commentInRDBMS>Last time changed</commentInRDBMS>
+<ownerDesignName>gamecenter</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<propertyMap>
+<property name="ctemplateID" value="FE335830-80F8-605D-35C4-12446D6D933A"/>
+</propertyMap>
+</Column>
+<Column name="changed_by" id="E9D66BD4-28BC-DA07-40C4-78BAF9A5EE81">
+<createdBy>thomasvanroy</createdBy>
+<createdTime>2015-10-09 19:45:19 UTC</createdTime>
+<commentInRDBMS>Last time changed by</commentInRDBMS>
+<ownerDesignName>gamecenter</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150 CHAR</dataTypeSize>
+<ownDataTypeParameters>150 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<propertyMap>
+<property name="ctemplateID" value="5849C32B-F6E5-456F-7A01-71A3F6CC5986"/>
+</propertyMap>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6DABD3D3-AF1A-75AD-11FE-91209FCD3876" name="GC_PLAYERS_PK">
+<createdBy>thomasvanroy</createdBy>
+<createdTime>2015-10-09 19:42:06 UTC</createdTime>
+<ownerDesignName>gamecenter</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F715C918-2269-1577-CDB8-E879CCC8E4A7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0C46076F-866E-6069-543B-B287F98E4936" name="GPLA_GUSR_FK_I">
+<createdBy>thomasvanroy</createdBy>
+<createdTime>2015-10-09 19:47:13 UTC</createdTime>
+<ownerDesignName>gamecenter</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C0DDBFFD-D909-FA1C-48F5-166468E059BD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A3968567-51CC-01EF-7974-BE4F8EB56D90" name="GPLA_GUSR_FK">
+<createdBy>thomasvanroy</createdBy>
+<createdTime>2015-10-09 19:45:55 UTC</createdTime>
+<ownerDesignName>gamecenter</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C0DDBFFD-D909-FA1C-48F5-166468E059BD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

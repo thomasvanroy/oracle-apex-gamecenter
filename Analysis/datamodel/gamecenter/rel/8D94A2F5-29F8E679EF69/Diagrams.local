@@ -1,0 +1,4 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.relational.RelationalDesign>
+   <object objectType="main_view" objectID="0AC8FF74-DABC-F5D2-8541-A90CB122AD10" name="GameCenter" visible="true"/>
+</oracle.dbtools.crest.model.design.relational.RelationalDesign>

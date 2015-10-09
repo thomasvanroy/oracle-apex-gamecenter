@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.relational.RelationalDesign>
+   <object objectType="Table" objectID="63C66BC3-DD9A-4FAA-58E3-18C36F120611" name="GC_GAMES" seqName="seg_0"/>
+   <object objectType="Table" objectID="8D067AA9-CE9E-C37D-E408-00FC85755986" name="GC_PLAYERS" seqName="seg_0"/>
+   <object objectType="Table" objectID="B8D34B0F-6EAE-67EE-8266-532C91DABE66" name="GC_USERS" seqName="seg_0"/>
+   <object objectType="Table" objectID="97B5C9E7-118F-6D02-C82D-A04447AE5A47" name="table_template" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="47E7B85C-974A-69CD-39C4-ADC7707DB36B" name="GPLA_GUSR_FK" seqName="seg_0" containerID="8D067AA9-CE9E-C37D-E408-00FC85755986" refContainerID="B8D34B0F-6EAE-67EE-8266-532C91DABE66"/>
+</oracle.dbtools.crest.model.design.relational.RelationalDesign>

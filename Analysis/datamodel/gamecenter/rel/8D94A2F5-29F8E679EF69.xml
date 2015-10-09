@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="GameCenter" id="8D94A2F5-C64A-1F6A-40AA-29F8E679EF69" mainViewID="0AC8FF74-DABC-F5D2-8541-A90CB122AD10">
+<createdBy>thomasvanroy</createdBy>
+<createdTime>2015-10-09 19:22:10 UTC</createdTime>
+<ownerDesignName>gamecenter</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+<selectedRDBMSSite>3FD120B5-9F4E-6278-D5E2-746D192C8319</selectedRDBMSSite>
+</relationalModel>

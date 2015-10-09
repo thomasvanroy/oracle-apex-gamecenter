@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="47E7B85C-974A-69CD-39C4-ADC7707DB36B" containerWithKeyObject="8D067AA9-CE9E-C37D-E408-00FC85755986" localFKIndex="A3968567-51CC-01EF-7974-BE4F8EB56D90" name="GPLA_GUSR_FK">
+<createdBy>thomasvanroy</createdBy>
+<createdTime>2015-10-09 19:45:55 UTC</createdTime>
+<ownerDesignName>gamecenter</ownerDesignName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>B8D34B0F-6EAE-67EE-8266-532C91DABE66</referredTableID>
+<keyObject>C17E60E0-EB56-9E3D-F0D8-13355C1D0960</keyObject>
+<referredKeyID>C17E60E0-EB56-9E3D-F0D8-13355C1D0960</referredKeyID>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,44 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Diagram class="oracle.dbtools.crest.swingui.relational.DPVRelational" name="GameCenter" id="0AC8FF74-DABC-F5D2-8541-A90CB122AD10">
+<createdBy>thomasvanroy</createdBy>
+<modifiedBy>thomasvanroy</modifiedBy>
+<createdTime>2015-10-09 19:22:10 UTC</createdTime>
+<autoRoute>false</autoRoute>
+<boxInbox>true</boxInbox>
+<showLegend>false</showLegend>
+<showLabels>false</showLabels>
+<showRelAttributes>false</showRelAttributes>
+<gridEnabled>false</gridEnabled>
+<showGrid>false</showGrid>
+<diagramColor>-1</diagramColor>
+<display>false</display>
+<notation>1</notation>
+<objectViews>
+<OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="63C66BC3-DD9A-4FAA-58E3-18C36F120611" otype="Table" vid="766C1B97-B319-5B77-754E-62749AE91B51">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="22" y="225" width="176" height="174"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="8D067AA9-CE9E-C37D-E408-00FC85755986" otype="Table" vid="EBFFF8E7-6C9E-0AAA-9950-65FE683E9B07">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="250" y="21" width="170" height="184"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="97B5C9E7-118F-6D02-C82D-A04447AE5A47" otype="Table" vid="D32F8671-4C3F-69D4-63E5-1FCBB4AE2843">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="655" y="14" width="170" height="110"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="B8D34B0F-6EAE-67EE-8266-532C91DABE66" otype="Table" vid="BEC78A0A-8AB3-4669-F679-8A3EDFE3C01B">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="22" y="22" width="170" height="175"/>
+</OView>
+</objectViews>
+<connectors>
+<Connector class="oracle.dbtools.crest.swingui.relational.TVFKRelation" oid="47E7B85C-974A-69CD-39C4-ADC7707DB36B" otype="FKIndexAssociation" vid_source="BEC78A0A-8AB3-4669-F679-8A3EDFE3C01B" vid_target="EBFFF8E7-6C9E-0AAA-9950-65FE683E9B07">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<lineWidth>1</lineWidth>
+<points>
+<point x="192" y="109"/>
+<point x="250" y="109"/>
+</points>
+</Connector>
+</connectors>
+</Diagram>

@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="97B5C9E7-118F-6D02-C82D-A04447AE5A47" name="table_template">
+<createdBy>thomasvanroy</createdBy>
+<createdTime>2015-10-09 19:30:57 UTC</createdTime>
+<ownerDesignName>gamecenter</ownerDesignName>
+<ordsAlias>table_2</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="created_on" id="E409BC90-B881-73E4-0263-E0A0F24E3F92">
+<createdBy>thomasvanroy</createdBy>
+<createdTime>2015-10-09 19:33:17 UTC</createdTime>
+<commentInRDBMS>Create on</commentInRDBMS>
+<ownerDesignName>gamecenter</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="created_by" id="6FB343A0-6757-28B9-7D80-75CB8D54EFA2">
+<createdBy>thomasvanroy</createdBy>
+<createdTime>2015-10-09 19:33:17 UTC</createdTime>
+<commentInRDBMS>Created by</commentInRDBMS>
+<ownerDesignName>gamecenter</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150 CHAR</dataTypeSize>
+<ownDataTypeParameters>150 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="changed_on" id="FE335830-80F8-605D-35C4-12446D6D933A">
+<createdBy>thomasvanroy</createdBy>
+<createdTime>2015-10-09 19:33:17 UTC</createdTime>
+<commentInRDBMS>Last time changed</commentInRDBMS>
+<ownerDesignName>gamecenter</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="changed_by" id="5849C32B-F6E5-456F-7A01-71A3F6CC5986">
+<createdBy>thomasvanroy</createdBy>
+<createdTime>2015-10-09 19:33:17 UTC</createdTime>
+<commentInRDBMS>Last time changed by</commentInRDBMS>
+<ownerDesignName>gamecenter</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150 CHAR</dataTypeSize>
+<ownDataTypeParameters>150 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+</Table>

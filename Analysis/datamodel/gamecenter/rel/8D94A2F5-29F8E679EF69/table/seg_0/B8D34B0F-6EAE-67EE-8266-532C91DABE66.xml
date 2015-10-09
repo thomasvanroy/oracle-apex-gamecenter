@@ -1,0 +1,118 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B8D34B0F-6EAE-67EE-8266-532C91DABE66" name="GC_USERS">
+<createdBy>thomasvanroy</createdBy>
+<createdTime>2015-10-09 19:22:56 UTC</createdTime>
+<ownerDesignName>gamecenter</ownerDesignName>
+<ordsAlias>table_1</ordsAlias>
+<abbreviation>GUSR</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="user_id" id="811561C2-FE4E-0185-6526-D0428F8FBB9D">
+<createdBy>thomasvanroy</createdBy>
+<createdTime>2015-10-09 19:30:06 UTC</createdTime>
+<ownerDesignName>gamecenter</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="username" id="B420D0C5-1381-0F1B-3A04-36BE05FF74C6">
+<createdBy>thomasvanroy</createdBy>
+<createdTime>2015-10-09 19:30:06 UTC</createdTime>
+<ownerDesignName>gamecenter</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150 CHAR</dataTypeSize>
+<ownDataTypeParameters>150 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="password" id="679FE339-1A26-EE2A-402D-3FC0D873E0E2">
+<createdBy>thomasvanroy</createdBy>
+<createdTime>2015-10-09 19:30:06 UTC</createdTime>
+<ownerDesignName>gamecenter</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>38 CHAR</dataTypeSize>
+<ownDataTypeParameters>38 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="created_on" id="D9D05CE3-873E-308B-BBA1-9CD67C4684CA">
+<createdBy>thomasvanroy</createdBy>
+<createdTime>2015-10-09 19:30:06 UTC</createdTime>
+<commentInRDBMS>Create on</commentInRDBMS>
+<ownerDesignName>gamecenter</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<propertyMap>
+<property name="ctemplateID" value="E409BC90-B881-73E4-0263-E0A0F24E3F92"/>
+</propertyMap>
+</Column>
+<Column name="created_by" id="570D51A3-E517-09F5-7BA2-95F8678F971B">
+<createdBy>thomasvanroy</createdBy>
+<createdTime>2015-10-09 19:30:06 UTC</createdTime>
+<commentInRDBMS>Created by</commentInRDBMS>
+<ownerDesignName>gamecenter</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150 CHAR</dataTypeSize>
+<ownDataTypeParameters>150 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<propertyMap>
+<property name="ctemplateID" value="6FB343A0-6757-28B9-7D80-75CB8D54EFA2"/>
+</propertyMap>
+</Column>
+<Column name="changed_on" id="D5066100-EE72-D140-A5A4-197174D36611">
+<createdBy>thomasvanroy</createdBy>
+<createdTime>2015-10-09 19:30:06 UTC</createdTime>
+<commentInRDBMS>Last time changed</commentInRDBMS>
+<ownerDesignName>gamecenter</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<propertyMap>
+<property name="ctemplateID" value="FE335830-80F8-605D-35C4-12446D6D933A"/>
+</propertyMap>
+</Column>
+<Column name="changed_by" id="654A0E33-1C4C-258E-7A28-E861FF3EB4CE">
+<createdBy>thomasvanroy</createdBy>
+<createdTime>2015-10-09 19:30:06 UTC</createdTime>
+<commentInRDBMS>Last time changed by</commentInRDBMS>
+<ownerDesignName>gamecenter</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150 CHAR</dataTypeSize>
+<ownDataTypeParameters>150 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<propertyMap>
+<property name="ctemplateID" value="5849C32B-F6E5-456F-7A01-71A3F6CC5986"/>
+</propertyMap>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C17E60E0-EB56-9E3D-F0D8-13355C1D0960" name="GC_USERS_PK">
+<createdBy>thomasvanroy</createdBy>
+<createdTime>2015-10-09 19:30:06 UTC</createdTime>
+<ownerDesignName>gamecenter</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="811561C2-FE4E-0185-6526-D0428F8FBB9D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
